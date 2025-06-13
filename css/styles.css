@@ -7,22 +7,50 @@ a {
     text-decoration: none;
 }
 
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    
+
+}
+
+.logo-studio,
+.nav-list a,
+.hero,
+.features-heading-list,
+.team-heading,
+.team-name,
+.portfolio-heading,
+.portfolio-heading-list {
+    color: #2e2f42;
+}
+
+
 /* logo */
-.logo {
-    font-family: Railway-Bold, sans-serif;
+.logo-studio {
+    font-family: Railway, sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-studio-footer {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd
 }
 
 .logo-span {
-    font-family: Railway-Bold, sans-serif;
+    font-family: Railway, sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -30,7 +58,6 @@ a {
 
 /* nav-list styles */
 .nav-list a{
-    color: #2e2f42;
     font-family: Roboto-Medium, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -51,6 +78,7 @@ a {
     font-family: Roboto-Regular, sans-serif;
     font-weight: 400;
     font-size: 16px;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -63,23 +91,22 @@ a {
 /* hero section */
 .hero {
    background-color: #2E2F42;
-   width: 1440px;
-   height: 600px; 
 }
 
 .hero-heading {
-    font-family: Robot-Bold, sans-serif;
-    color: white;
+    font-family: Roboto-Bold, sans-serif;
+    color: #ffffff;
     text-align: center;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
 .hero-button {
-    font-family: Roboto-Medium, sans-serif;
-    color: white;
+    font-family: Roboto, sans-serif;
+    background-color: #4D5AE5;
+    color: #ffffff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -87,13 +114,13 @@ a {
     cursor: pointer;
 }
 
+.hero-button:focus,
 .hero-button:hover {
     background-color: #404bbf;
 }
 
+
 /* features section */
-.features-heading {
-}
 
 .features-heading-list {
     font-family: Roboto-Medium, sans-serif;
@@ -101,7 +128,6 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42
 }
 
 .features-heading-text {
@@ -114,6 +140,10 @@ a {
 }
 
 /* team section */
+.team {
+    background-color: #F4F4FD;
+}
+
 .team-heading {
     font-family: Roboto-Bold, sans-serif;
     font-weight: 700;
@@ -121,17 +151,16 @@ a {
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42
+    text-transform: capitalize;
 }
 
 .team-name {
-    font-family: Robot-Medium, sans-serif;
+    font-family: Roboto-Medium, sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
 }
 
 .team-text {
@@ -141,19 +170,22 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #434455
+}
+
+.team-item {
+    background-color: #ffffff;
 }
 
 /* portfolio section */
-.portfolio {}
-
 .portfolio-heading {
     font-family: Roboto-Bold, sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42
+    text-transform: capitalize;
 }
 
 .portfolio-heading-list {
@@ -162,11 +194,10 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
 .portfolio-text {
-    font-family: Robot-Regular, sans-serif;
+    font-family: Roboto-Regular, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -177,8 +208,6 @@ a {
 /* footer section */
 footer {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 312px;
 }
 
 .footer-text {
@@ -187,4 +216,5 @@ footer {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
