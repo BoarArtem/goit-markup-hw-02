@@ -29,7 +29,7 @@ body {
 
 /* logo */
 .logo-studio {
-    font-family: Railway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -38,12 +38,13 @@ body {
 }
 
 .logo-studio-footer {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd
+    color: #f4f4fd;
 }
 
 .logo-span {
@@ -69,22 +70,30 @@ body {
     color: #404bbf;
 }
 
+.nav-list a:focus {
+    color: #404bbf;
+}
+
 .nav-list a:active {
     text-decoration: underline;
 }
 
 /* contact-list */
-.contact-list a{
+.contact {
+    font-style: normal;
+}
+
+.contact-link {
     font-family: Roboto-Regular, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.contact-list a:hover {
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf;
 }
 
@@ -94,7 +103,7 @@ body {
 }
 
 .hero-heading {
-    font-family: Roboto-Bold, sans-serif;
+    font-family: Roboto, sans-serif;
     color: #ffffff;
     text-align: center;
     font-weight: 700;
@@ -148,7 +157,7 @@ body {
     font-family: Roboto-Bold, sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -158,7 +167,7 @@ body {
     font-family: Roboto-Medium, sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -211,10 +220,11 @@ footer {
 }
 
 .footer-text {
-    font-family: Roboto-Regular, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #F4F4FD;
 }
